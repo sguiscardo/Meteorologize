@@ -14,10 +14,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-       
-        CityController.sharedInstance.createCity(name: "Salt Lake City", temp: 69.0, high: 81, low: 43, status: "Partly Cloudy")
-        CityController.sharedInstance.createCity(name: "New Mexico", temp: 103.1, high: 108, low: 95, status: "Sunny. Slight NW wind")
-        CityController.sharedInstance.createCity(name: "Las Vegas", temp: 111.8, high: 114, low: 103, status: "Sunny. Weather Warning: Too much sun")
         
         return true
     }
