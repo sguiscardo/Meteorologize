@@ -3,29 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		41E6C3E526CECD1F00C8215E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E6C3E426CECD1F00C8215E /* AppDelegate.swift */; };
-		41E6C3E726CECD1F00C8215E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E6C3E626CECD1F00C8215E /* SceneDelegate.swift */; };
-		41E6C3EC26CECD1F00C8215E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41E6C3EA26CECD1F00C8215E /* Main.storyboard */; };
-		41E6C3EE26CECD2100C8215E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41E6C3ED26CECD2100C8215E /* Assets.xcassets */; };
-		41E6C3F126CECD2100C8215E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41E6C3EF26CECD2100C8215E /* LaunchScreen.storyboard */; };
+		7C6722F5299174BB00FA6B6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6722F4299174BB00FA6B6D /* AppDelegate.swift */; };
+		7C6722F7299174BB00FA6B6D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6722F6299174BB00FA6B6D /* SceneDelegate.swift */; };
+		7C6722FC299174BB00FA6B6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C6722FA299174BB00FA6B6D /* Main.storyboard */; };
+		7C6722FE299174BC00FA6B6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C6722FD299174BC00FA6B6D /* Assets.xcassets */; };
+		7C672301299174BC00FA6B6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C6722FF299174BC00FA6B6D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		41E6C3E126CECD1F00C8215E /* Meterologize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meterologize.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		41E6C3E426CECD1F00C8215E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		41E6C3E626CECD1F00C8215E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		41E6C3EB26CECD1F00C8215E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		41E6C3ED26CECD2100C8215E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		41E6C3F026CECD2100C8215E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		41E6C3F226CECD2100C8215E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C6722F1299174BB00FA6B6D /* Meterologize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meterologize.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C6722F4299174BB00FA6B6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7C6722F6299174BB00FA6B6D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7C6722FB299174BB00FA6B6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7C6722FD299174BC00FA6B6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C672300299174BC00FA6B6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7C672302299174BC00FA6B6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		41E6C3DE26CECD1F00C8215E /* Frameworks */ = {
+		7C6722EE299174BB00FA6B6D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,93 +35,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		41A688BE26CED7FD00F1F958 /* Controllers */ = {
+		7C6722E8299174BB00FA6B6D = {
 			isa = PBXGroup;
 			children = (
-				41A688BF26CED80B00F1F958 /* Model Controllers */,
-				41A688C026CED81400F1F958 /* View Controllers */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		41A688BF26CED80B00F1F958 /* Model Controllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Model Controllers";
-			sourceTree = "<group>";
-		};
-		41A688C026CED81400F1F958 /* View Controllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "View Controllers";
-			sourceTree = "<group>";
-		};
-		41E6C3D826CECD1F00C8215E = {
-			isa = PBXGroup;
-			children = (
-				41E6C3E326CECD1F00C8215E /* Meterologize */,
-				41A688BE26CED7FD00F1F958 /* Controllers */,
-				41E6C3E226CECD1F00C8215E /* Products */,
+				7C6722F3299174BB00FA6B6D /* Meterologize */,
+				7C6722F2299174BB00FA6B6D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		41E6C3E226CECD1F00C8215E /* Products */ = {
+		7C6722F2299174BB00FA6B6D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				41E6C3E126CECD1F00C8215E /* Meterologize.app */,
+				7C6722F1299174BB00FA6B6D /* Meterologize.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		41E6C3E326CECD1F00C8215E /* Meterologize */ = {
+		7C6722F3299174BB00FA6B6D /* Meterologize */ = {
 			isa = PBXGroup;
 			children = (
-				41E6C3F826CED55D00C8215E /* Supporting Files */,
-				41E6C3F926CED59900C8215E /* Storyboards */,
-				41E6C3FC26CED5DD00C8215E /* Model */,
+				7C67230A2991753B00FA6B6D /* Storyboards */,
+				7C6723092991751700FA6B6D /* Supporting Files */,
 			);
 			path = Meterologize;
 			sourceTree = "<group>";
 		};
-		41E6C3F826CED55D00C8215E /* Supporting Files */ = {
+		7C6723092991751700FA6B6D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				41E6C3E426CECD1F00C8215E /* AppDelegate.swift */,
-				41E6C3E626CECD1F00C8215E /* SceneDelegate.swift */,
-				41E6C3ED26CECD2100C8215E /* Assets.xcassets */,
-				41E6C3F226CECD2100C8215E /* Info.plist */,
+				7C6722F4299174BB00FA6B6D /* AppDelegate.swift */,
+				7C6722F6299174BB00FA6B6D /* SceneDelegate.swift */,
+				7C6722FD299174BC00FA6B6D /* Assets.xcassets */,
+				7C672302299174BC00FA6B6D /* Info.plist */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		41E6C3F926CED59900C8215E /* Storyboards */ = {
+		7C67230A2991753B00FA6B6D /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				41E6C3EA26CECD1F00C8215E /* Main.storyboard */,
-				41E6C3EF26CECD2100C8215E /* LaunchScreen.storyboard */,
+				7C6722FA299174BB00FA6B6D /* Main.storyboard */,
+				7C6722FF299174BC00FA6B6D /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
-			sourceTree = "<group>";
-		};
-		41E6C3FC26CED5DD00C8215E /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		41E6C3E026CECD1F00C8215E /* Meterologize */ = {
+		7C6722F0299174BB00FA6B6D /* Meterologize */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 41E6C3F526CECD2100C8215E /* Build configuration list for PBXNativeTarget "Meterologize" */;
+			buildConfigurationList = 7C672305299174BC00FA6B6D /* Build configuration list for PBXNativeTarget "Meterologize" */;
 			buildPhases = (
-				41E6C3DD26CECD1F00C8215E /* Sources */,
-				41E6C3DE26CECD1F00C8215E /* Frameworks */,
-				41E6C3DF26CECD1F00C8215E /* Resources */,
+				7C6722ED299174BB00FA6B6D /* Sources */,
+				7C6722EE299174BB00FA6B6D /* Frameworks */,
+				7C6722EF299174BB00FA6B6D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -129,79 +97,80 @@
 			);
 			name = Meterologize;
 			productName = Meterologize;
-			productReference = 41E6C3E126CECD1F00C8215E /* Meterologize.app */;
+			productReference = 7C6722F1299174BB00FA6B6D /* Meterologize.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		41E6C3D926CECD1F00C8215E /* Project object */ = {
+		7C6722E9299174BB00FA6B6D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1250;
-				LastUpgradeCheck = 1250;
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					41E6C3E026CECD1F00C8215E = {
-						CreatedOnToolsVersion = 12.5.1;
+					7C6722F0299174BB00FA6B6D = {
+						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = 41E6C3DC26CECD1F00C8215E /* Build configuration list for PBXProject "Meterologize" */;
-			compatibilityVersion = "Xcode 9.3";
+			buildConfigurationList = 7C6722EC299174BB00FA6B6D /* Build configuration list for PBXProject "Meterologize" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 41E6C3D826CECD1F00C8215E;
-			productRefGroup = 41E6C3E226CECD1F00C8215E /* Products */;
+			mainGroup = 7C6722E8299174BB00FA6B6D;
+			productRefGroup = 7C6722F2299174BB00FA6B6D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				41E6C3E026CECD1F00C8215E /* Meterologize */,
+				7C6722F0299174BB00FA6B6D /* Meterologize */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		41E6C3DF26CECD1F00C8215E /* Resources */ = {
+		7C6722EF299174BB00FA6B6D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41E6C3F126CECD2100C8215E /* LaunchScreen.storyboard in Resources */,
-				41E6C3EE26CECD2100C8215E /* Assets.xcassets in Resources */,
-				41E6C3EC26CECD1F00C8215E /* Main.storyboard in Resources */,
+				7C672301299174BC00FA6B6D /* LaunchScreen.storyboard in Resources */,
+				7C6722FE299174BC00FA6B6D /* Assets.xcassets in Resources */,
+				7C6722FC299174BB00FA6B6D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		41E6C3DD26CECD1F00C8215E /* Sources */ = {
+		7C6722ED299174BB00FA6B6D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41E6C3E526CECD1F00C8215E /* AppDelegate.swift in Sources */,
-				41E6C3E726CECD1F00C8215E /* SceneDelegate.swift in Sources */,
+				7C6722F5299174BB00FA6B6D /* AppDelegate.swift in Sources */,
+				7C6722F7299174BB00FA6B6D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		41E6C3EA26CECD1F00C8215E /* Main.storyboard */ = {
+		7C6722FA299174BB00FA6B6D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				41E6C3EB26CECD1F00C8215E /* Base */,
+				7C6722FB299174BB00FA6B6D /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		41E6C3EF26CECD2100C8215E /* LaunchScreen.storyboard */ = {
+		7C6722FF299174BC00FA6B6D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				41E6C3F026CECD2100C8215E /* Base */,
+				7C672300299174BC00FA6B6D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -209,14 +178,13 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		41E6C3F326CECD2100C8215E /* Debug */ = {
+		7C672303299174BC00FA6B6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -260,7 +228,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,14 +238,13 @@
 			};
 			name = Debug;
 		};
-		41E6C3F426CECD2100C8215E /* Release */ = {
+		7C672304299174BC00FA6B6D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -315,7 +282,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -325,39 +292,55 @@
 			};
 			name = Release;
 		};
-		41E6C3F626CECD2100C8215E /* Debug */ = {
+		7C672306299174BC00FA6B6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4J7B9732LY;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Meterologize/Supporting Files/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = OkamiAcademy.Meterologize;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PoffCreations.Meterologize;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		41E6C3F726CECD2100C8215E /* Release */ = {
+		7C672307299174BC00FA6B6D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4J7B9732LY;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Meterologize/Supporting Files/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = OkamiAcademy.Meterologize;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PoffCreations.Meterologize;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -366,25 +349,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		41E6C3DC26CECD1F00C8215E /* Build configuration list for PBXProject "Meterologize" */ = {
+		7C6722EC299174BB00FA6B6D /* Build configuration list for PBXProject "Meterologize" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				41E6C3F326CECD2100C8215E /* Debug */,
-				41E6C3F426CECD2100C8215E /* Release */,
+				7C672303299174BC00FA6B6D /* Debug */,
+				7C672304299174BC00FA6B6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		41E6C3F526CECD2100C8215E /* Build configuration list for PBXNativeTarget "Meterologize" */ = {
+		7C672305299174BC00FA6B6D /* Build configuration list for PBXNativeTarget "Meterologize" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				41E6C3F626CECD2100C8215E /* Debug */,
-				41E6C3F726CECD2100C8215E /* Release */,
+				7C672306299174BC00FA6B6D /* Debug */,
+				7C672307299174BC00FA6B6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 41E6C3D926CECD1F00C8215E /* Project object */;
+	rootObject = 7C6722E9299174BB00FA6B6D /* Project object */;
 }
