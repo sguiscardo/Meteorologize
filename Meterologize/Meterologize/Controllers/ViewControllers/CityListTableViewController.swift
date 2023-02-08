@@ -16,8 +16,14 @@ class CityListTableViewController: UITableViewController {
 	// MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableView.reloadData()
+    
+        
     }
-
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        tableView.reloadData()
+    }
 	// MARK: - Actions
 	@IBAction func addCityButtonTapped(_ sender: Any) {
 		guard let cityName = cityNameTextField.text, !cityName.isEmpty,
@@ -26,10 +32,12 @@ class CityListTableViewController: UITableViewController {
 		CityController.sharedInstance.createCity(name: cityName, temp: Double(cityTemp) ?? 0)
 		updateTableView()
 	}
+    
 
     // MARK: - Table view data source
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
 		return CityController.sharedInstance.cities.count
+     
 	}
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
