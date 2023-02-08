@@ -15,6 +15,10 @@ class CityDetailViewController: UIViewController {
 	@IBOutlet weak var currentTempLabel: UILabel!
 	@IBOutlet weak var projectedHighLabel: UILabel!
 	@IBOutlet weak var projectedLowLabel: UILabel!
+    
+    
+    // MARK: - Properties
+    var objectToRecieveTheDataFromOurPrepareForSegue: City? //make it optional
 
 	// MARK: - Lifecycle
     override func viewDidLoad() {
@@ -25,7 +29,7 @@ class CityDetailViewController: UIViewController {
 
 	// MARK: - Methods
 	func updateViews() {
-		let city = CityController.sharedInstance.cities[0]
+        guard let city = objectToRecieveTheDataFromOurPrepareForSegue else {return}
 
 		cityNameLabel.text = city.name
 		currentStatusLabel.text = city.currentStatus

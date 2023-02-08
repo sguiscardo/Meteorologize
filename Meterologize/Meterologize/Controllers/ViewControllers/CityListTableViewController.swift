@@ -54,4 +54,23 @@ class CityListTableViewController: UITableViewController {
 	func updateTableView() {
 		self.tableView.reloadData()
 	}
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // IIDOO
+        //what segue has been triggered?
+        if segue.identifier == "toDetailViewController"{
+            //what cell did the user tap on?
+            if let indexPath = tableView.indexPathForSelectedRow{
+                //where is the user going?
+                if let destination = segue.destination as? CityDetailViewController {
+                    // what object am I sending to the detail VC?
+                    let city = CityController.sharedInstance.cities[indexPath.row]
+                    //who is going to receive the data?
+                    destination.objectToRecieveTheDataFromOurPrepareForSegue = city
+                    
+                }
+            }
+            
+        }
+    }
 } // end of class

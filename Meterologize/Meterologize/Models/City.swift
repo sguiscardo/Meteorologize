@@ -22,3 +22,4 @@ class City {
 		self.currentStatus = currentStatus
 	}
 } // end of class
+
